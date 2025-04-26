@@ -1,0 +1,36 @@
+# Python cached files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+
+# Large data files
+# Note: Uncommenting this would exclude the embedding model from being copied twice
+# cc.pt.300.vec.gz is already explicitly copied in the Dockerfile
+cc.pt.300.vec.gz
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+.DS_Store
+*.tmp

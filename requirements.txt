@@ -1,0 +1,6 @@
+fastapi
+gensim
+scikit-learn
+numpy
+databases
+asyncpg

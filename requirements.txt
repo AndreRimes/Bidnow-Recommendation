@@ -1,4 +1,5 @@
 fastapi
+uvicorn
 gensim
 scikit-learn
 numpy
